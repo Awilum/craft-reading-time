@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace ReadingTime;
 
-class Plugin extends \craft\base\Plugin
+class ReadingTime extends \craft\base\Plugin
 {
     public function init()
     {

@@ -22,13 +22,14 @@
     },
     "autoload": {
       "psr-4": {
-        "namespace\\prefix\\": "src/"
+        "ReadingTime\\": "src/"
       }
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "extra": {
       "name": "Reading Time",
-      "handle": "reading-time"
+      "handle": "reading-time",
+      "class": "ReadingTime\\ReadingTime",
     }
   }
