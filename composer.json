@@ -30,6 +30,6 @@
     "extra": {
       "name": "Reading Time",
       "handle": "reading-time",
-      "class": "ReadingTime\\ReadingTime",
+      "class": "ReadingTime\\ReadingTime"
     }
   }
