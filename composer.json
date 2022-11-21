@@ -29,6 +29,7 @@
     "prefer-stable": true,
     "extra": {
       "name": "Reading Time",
-      "handle": "reading-time"
+      "handle": "reading-time",
+      "class": "ReadingTime\\ReadingTime"
     }
   }
