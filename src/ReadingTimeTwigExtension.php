@@ -8,6 +8,7 @@ use Twig\Environment;
 use Twig\Extension\AbstractExtension;
 use Twig\TwigFunction;
 use Twig_Extension;
+use function ReadingTime\readingTime;
 
 class ReadingTimeTwigExtension extends AbstractExtension
 {
@@ -29,9 +30,7 @@ class ReadingTimeTwigExtension extends AbstractExtension
 	public function getFunctions()
 	{
 		return [
-			new TwigFunction('d', function() {
-                return 'ReadingTimeTwigExtension';
-            }),
+			new TwigFunction('readingTime', 'readingTime'),
 		];
 	}
 }

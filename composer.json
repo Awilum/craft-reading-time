@@ -23,7 +23,8 @@
     "autoload": {
       "psr-4": {
         "ReadingTime\\": "src/"
-      }
+      },
+      "files": ["src/functions.php"]
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
