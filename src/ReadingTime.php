@@ -4,9 +4,11 @@ declare(strict_types=1);
 
 namespace ReadingTime;
 
+use Craft;
+use craft\base\Plugin;
 use ReadingTime\ReadingTimeTwigExtension;
 
-class ReadingTime extends \craft\base\Plugin
+class ReadingTime extends Plugin
 {
     public function init()
     {
