@@ -4,4 +4,4 @@ parameters:
         - %currentWorkingDirectory%/src/
     ignoreErrors:
         # ignore
-        - 'Access to static property $app on an unknown class Craft'
+        - 'Access to static property \$app on an unknown class Craft'
