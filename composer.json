@@ -32,5 +32,15 @@
       "name": "Reading Time",
       "handle": "reading-time",
       "class": "CraftPlugins\\ReadingTime\\ReadingTime"
+    },
+    "require-dev": {
+        "pestphp/pest": "^1.22"
+    },
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true,
+            "craftcms/plugin-installer": true,
+            "pestphp/pest-plugin": true
+        }
     }
-  }
+}

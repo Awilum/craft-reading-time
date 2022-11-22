@@ -45,7 +45,7 @@ Display reading time with custom translates and format in the twig templates:
                 'minutes': 'Minutes',
                 'second':  'Second',
                 'seconds': 'Seconds',
-                'format': '{minutes_count} {minutes_label} – {seconds_count} {seconds_label}'
+                'format': '[minutes_count] [minutes_label] – [seconds_count] [seconds_label]'
                 }) }}
 ```
 
@@ -57,9 +57,7 @@ Display reading time with custom translates and format that with alternative for
                 'minutes': 'Minutes',
                 'second':  'Second',
                 'seconds': 'Seconds',
-                'format': '{minutes_count} {minutes_label} – {seconds_count} {seconds_label}',
-                'format.alt': '{minutes_count} : {seconds_count}',
-                'format.alt: true
+                'format': '[minutes_count] [minutes_label] – [seconds_count] [seconds_label]'
                 }) }}
 ```
 
