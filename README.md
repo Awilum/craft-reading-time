@@ -49,7 +49,7 @@ Display reading time with custom translates and format in the twig templates:
                 }) }}
 ```
 
-Display reading time with custom translates and format that alternative format that hides the minute label in the twig templates
+Display reading time with custom translates and format that with alternative format that hides the `minutes` and `seconds` label in the twig templates
 
 ```
 {{ readingTime('Some text here ...', {
@@ -57,14 +57,22 @@ Display reading time with custom translates and format that alternative format t
                 'minutes': 'Minutes',
                 'second':  'Second',
                 'seconds': 'Seconds',
-                'format': '{minutes_count} {minutes_label} – {seconds_count} {seconds_label}'
+                'format': '{minutes_count} {minutes_label} – {seconds_count} {seconds_label}',
+                'format.alt': '{minutes_count} : {seconds_count}',
+                'format.alt: true
                 }) }}
 ```
+
+Also you can use `readingTime` filter in your twig templates: 
+
+{{ 'Some text here ...'|readingTime }}
 
 Display page view counter in the php:
 
 ```php
-echo CraftPlugins\ReadingTime\readingTime($content, $options);
+use function CraftPlugins\ReadingTime\readingTime;
+
+echo readingTime($content, $options);
 ```
 
 ## LICENSE

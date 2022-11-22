@@ -7,6 +7,7 @@ namespace CraftPlugins\ReadingTime;
 use Twig\Environment;
 use Twig\Extension\AbstractExtension;
 use Twig\TwigFunction;
+use Twig\TwigFilter;
 use Twig_Extension;
 use function CraftPlugins\ReadingTime\readingTime;
 
@@ -20,6 +21,18 @@ class ReadingTimeTwigExtension extends AbstractExtension
 	public function getName()
 	{
 		return 'ReadingTimeTwigExtension';
+	}
+
+	/**
+	 * Get TwigFilter
+	 *
+	 * @return array
+	 */
+	public function getFilters()
+	{
+		return [
+			new TwigFilter('readingTime', fn(string $content, array $options = []) => readingTime($content, $options)),
+		];
 	}
 
 	/**
