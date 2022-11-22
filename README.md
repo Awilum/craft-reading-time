@@ -1,5 +1,5 @@
-# reading-time
-Estimated reading time plugin for Craft CMS
+# Reading Time
+Estimated reading time plugin for [Craft CMS](https://github.com/craftcms)
 
 ## Requirements
 
@@ -63,14 +63,16 @@ Display reading time with custom translates and format that with alternative for
 
 Also you can use `readingTime` filter in your twig templates: 
 
+```
 {{ 'Some text here ...'|readingTime }}
+```
 
 Display page view counter in the php:
 
 ```php
 use function CraftPlugins\ReadingTime\readingTime;
 
-echo readingTime($content, $options);
+echo readingTime('Some text here ...');
 ```
 
 ## LICENSE
