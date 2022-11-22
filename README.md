@@ -67,7 +67,7 @@ Also you can use `readingTime` filter in your twig templates:
 {{ 'Some text here ...'|readingTime }}
 ```
 
-Display page view counter in the php:
+Use `readingTime` function in the PHP:
 
 ```php
 use function CraftPlugins\ReadingTime\readingTime;
