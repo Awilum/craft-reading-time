@@ -8,7 +8,8 @@ Reading Time plugin shows the estimated reading time of the content, in seconds 
 
 ## Requirements
 
-This plugin requires Craft CMS 4.
+* **Craft CMS**: ^4.0
+* **PHP**: ^8.0
 
 ## Installation
 
