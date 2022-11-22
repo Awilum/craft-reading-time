@@ -1,7 +1,7 @@
 <h1 align="center">Reading Time plugin for <a href="https://github.com/craftcms">Craft CMS</a></h1>
 
 <p align="center">
-<img src="https://img.shields.io/badge/license-MIT-blue.svg?label=License" alt="License MIT"> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/craft-plugins/reading-time?label=Stars"> <img alt="GitHub forks" src="https://img.shields.io/github/forks/reading-time/site?label=Forks"> <a href="https://hitsofcode.com"><img alt="Hits of Code" src="https://hitsofcode.com/github/craft-plugins/reading-time?branch=1.x"></a>
+<img src="https://img.shields.io/badge/license-MIT-blue.svg?label=License" alt="License MIT"> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/craft-plugins/reading-time?label=Stars"> <img alt="GitHub forks" src="https://img.shields.io/github/forks/craft/reading-time?label=Forks"> <a href="https://hitsofcode.com"><img alt="Hits of Code" src="https://hitsofcode.com/github/craft-plugins/reading-time?branch=1.x"></a>
 </p>
 
 Reading Time plugin shows the estimated reading time of the content, in seconds or minutes.
