@@ -1,6 +1,6 @@
 {
     "name": "craft-plugins/reading-time",
-    "description": "Estimated reading time plugin for Craft CMS",
+    "description": "Reading Time plugin shows the estimated reading time of the content, in seconds or minutes.",
     "type": "craft-plugin",
     "keywords": ["twig", "craft", "craft-plugin", "craftcms"],
     "license": "MIT",
