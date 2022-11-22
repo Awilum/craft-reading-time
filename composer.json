@@ -36,8 +36,7 @@
     "require-dev": {
       "ext-iconv": "*",
       "pestphp/pest": "^1.22",
-      "phpstan/phpstan": "^1.8.0",
-      "symfony/var-dumper": "^6.1.0"
+      "phpstan/phpstan": "^1.8.0"
     },
     "config": {
         "allow-plugins": {
