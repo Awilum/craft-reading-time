@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace ReadingTime;
+namespace CraftPlugins\ReadingTime;
 
 use Twig\Environment;
 use Twig\Extension\AbstractExtension;
 use Twig\TwigFunction;
 use Twig_Extension;
-use function ReadingTime\readingTime;
+use function CraftPlugins\ReadingTime\readingTime;
 
 class ReadingTimeTwigExtension extends AbstractExtension
 {
@@ -30,7 +30,7 @@ class ReadingTimeTwigExtension extends AbstractExtension
 	public function getFunctions()
 	{
 		return [
-			new TwigFunction('readingTime', 'readingTime'),
+			new TwigFunction('readingTime', fn(string $content, array $options = []) => readingTime($content, $options)),
 		];
 	}
 }

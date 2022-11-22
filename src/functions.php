@@ -2,11 +2,14 @@
 
 declare(strict_types=1);
 
-namespace ReadingTime;
+namespace CraftPlugins\ReadingTime;
 
 /**
  * Get reading time
- *
+ * 
+ * @param string $content Content
+ * @param array $options Options
+ * 
  * @return string
  */
 function readingTime(string $content, array $options = []): string
@@ -23,8 +26,8 @@ function readingTime(string $content, array $options = []): string
 
     $options      = array_merge($defaults, $options);
     $words        = str_word_count(strip_tags($content));
-    $minutesCount = floor($words / 200);
-    $secondsCount = floor($words % 200 / (200 / 60));
+    $minutesCount = (int) floor($words / 200);
+    $secondsCount = (int) floor($words % 200 / (200 / 60));
     $minutesLabel = ($minutesCount <= 1) ? $options['minute'] : $options['minutes'];
     $secondsLabel = ($secondsCount <= 1) ? $options['second'] : $options['seconds'];
 
@@ -42,7 +45,7 @@ function readingTime(string $content, array $options = []): string
     }
 
     foreach ($replace as $key => $value) {
-        $result = str_replace('{' . $key . '}', $value, $result);
+        $result = str_replace('{' . $key . '}', (string) $value, $result);
     }
 
     return $result;

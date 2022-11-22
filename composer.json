@@ -22,7 +22,7 @@
     },
     "autoload": {
       "psr-4": {
-        "ReadingTime\\": "src/"
+        "CraftPlugins\\ReadingTime\\": "src/"
       },
       "files": ["src/functions.php"]
     },
@@ -31,6 +31,6 @@
     "extra": {
       "name": "Reading Time",
       "handle": "reading-time",
-      "class": "ReadingTime\\ReadingTime"
+      "class": "CraftPlugins\\ReadingTime\\ReadingTime"
     }
   }

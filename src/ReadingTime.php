@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace ReadingTime;
+namespace CraftPlugins\ReadingTime;
 
 use Craft;
 use craft\base\Plugin;
-use ReadingTime\ReadingTimeTwigExtension;
+use CraftPlugins\ReadingTime\ReadingTimeTwigExtension;
 
 class ReadingTime extends Plugin
 {
