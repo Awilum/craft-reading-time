@@ -11,14 +11,14 @@
 
 declare(strict_types=1);
 
-namespace CraftPlugins\ReadingTime;
+namespace Awilum\CraftReadingTime;
 
 use Twig\Environment;
 use Twig\Extension\AbstractExtension;
 use Twig\TwigFunction;
 use Twig\TwigFilter;
 use Twig_Extension;
-use function CraftPlugins\ReadingTime\readingTime;
+use function Awilum\CraftReadingTime\readingTime;
 
 class ReadingTimeTwigExtension extends AbstractExtension
 {

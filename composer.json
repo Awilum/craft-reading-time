@@ -1,5 +1,5 @@
 {
-    "name": "craft-plugins/reading-time",
+    "name": "awilum/craft-reading-time",
     "description": "Reading Time plugin shows the estimated reading time of the content, in seconds or minutes.",
     "type": "craft-plugin",
     "keywords": ["twig", "craft", "craft-plugin", "craftcms"],
@@ -8,21 +8,21 @@
         {
             "name": "Sergey Romanenko",
             "email": "awilum@msn.com",
-            "homepage": "https://awilum.github.io"
+            "homepage": "https://awilum.github.io/"
         }
     ],
     "support": {
       "email": "awilum@msn.com",
-      "issues": "https://github.com/craft-plugins/reading-time/issues?state=open",
-      "source": "https://github.com/craft-plugins/reading-time",
-      "docs": "https://github.com/craft-plugins/reading-time/master/README.md"
+      "issues": "https://github.com/awilum/craft-reading-time/issues?state=open",
+      "source": "https://github.com/awilum/craft-reading-time",
+      "docs": "https://github.com/awilum/craft-reading-time/master/README.md"
     },
     "require": {
       "craftcms/cms": "^4.3.3"
     },
     "autoload": {
       "psr-4": {
-        "CraftPlugins\\ReadingTime\\": "src/"
+        "Awilum\\CraftReadingTime\\": "src/"
       },
       "files": ["src/functions.php"]
     },
@@ -31,7 +31,7 @@
     "extra": {
       "name": "Reading Time",
       "handle": "reading-time",
-      "class": "CraftPlugins\\ReadingTime\\ReadingTime"
+      "class": "Awilum\\CraftReadingTime\\ReadingTime"
     },
     "require-dev": {
       "ext-iconv": "*",

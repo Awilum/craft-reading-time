@@ -11,7 +11,7 @@
 
 declare(strict_types=1);
 
-namespace CraftPlugins\ReadingTime;
+namespace Awilum\CraftReadingTime;
 
 /**
  * Get reading time

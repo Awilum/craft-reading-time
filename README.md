@@ -1,7 +1,7 @@
 <h1 align="center">Reading Time plugin for <a href="https://github.com/craftcms">Craft CMS</a></h1>
 
 <p align="center">
-<img src="https://img.shields.io/badge/license-MIT-blue.svg?label=License" alt="License MIT"> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/craft-plugins/reading-time?label=Stars"> <img alt="GitHub forks" src="https://img.shields.io/github/forks/craft-plugins/reading-time?label=Forks"> <a href="https://hitsofcode.com"><img alt="Hits of Code" src="https://hitsofcode.com/github/craft-plugins/reading-time?branch=1.x"></a>
+<img src="https://img.shields.io/badge/license-MIT-blue.svg?label=License" alt="License MIT"> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/awilum/craft-reading-time?label=Stars"> <img alt="GitHub forks" src="https://img.shields.io/github/forks/awilum/craft-reading-time?label=Forks"> <a href="https://hitsofcode.com"><img alt="Hits of Code" src="https://hitsofcode.com/github/awilum/craft-reading-time?branch=1.x"></a>
 </p>
 
 Reading Time plugin shows the estimated reading time of the content, in seconds or minutes.
@@ -20,7 +20,7 @@ To install the plugin, follow these instructions.
     cd /path/to/project
     ```
 
-2. In your terminal run `composer require craft-plugins/reading-time`.
+2. In your terminal run `composer require awilum/craft-reading-time`.
 
 3. In the Control Panel, go to Settings → Plugins and click the “Install” button for Reading Time.
 
@@ -76,11 +76,11 @@ Also you can use `readingTime` filter in your twig templates:
 Use `readingTime` function in the PHP:
 
 ```php
-use function CraftPlugins\ReadingTime\readingTime;
+use function Awilum\CraftReadingTime\readingTime;
 
 echo readingTime('Some text here ...');
 ```
 
 ## LICENSE
-[The MIT License (MIT)](https://github.com/craft-plugins/reading-time/blob/master/LICENSE.md)
+[The MIT License (MIT)](https://github.com/awilum/craft-reading-time/blob/master/LICENSE.md)
 Copyright (c) [Sergey Romanenko](https://awilum.github.io/)

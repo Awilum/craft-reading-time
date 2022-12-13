@@ -1,6 +1,6 @@
 <?php
 
-use function CraftPlugins\ReadingTime\readingTime;
+use function Awilum\CraftReadingTime\readingTime;
 
 beforeEach(function () {
     $this->content = <<<CONTENT

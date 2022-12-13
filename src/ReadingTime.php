@@ -11,11 +11,11 @@
 
 declare(strict_types=1);
 
-namespace CraftPlugins\ReadingTime;
+namespace Awilum\CraftReadingTime;
 
 use Craft;
 use craft\base\Plugin;
-use CraftPlugins\ReadingTime\ReadingTimeTwigExtension;
+use Awilum\CraftReadingTime\ReadingTimeTwigExtension;
 
 class ReadingTime extends Plugin
 {
